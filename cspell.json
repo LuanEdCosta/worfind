@@ -3,7 +3,12 @@
   "ignorePaths": [],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": ["tailwindcss", "worfind"],
+  "words": [
+    "fontsource",
+    "poppins",
+    "tailwindcss",
+    "worfind"
+  ],
   "ignoreWords": [],
   "import": []
 }

@@ -1,5 +1,5 @@
-import { HomePage } from 'src/pages'
+import { AppRoutes } from 'src/routes'
 
 export function App() {
-  return <HomePage />
+  return <AppRoutes />
 }
