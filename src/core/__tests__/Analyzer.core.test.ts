@@ -1,10 +1,30 @@
 import { Analyzer } from 'src/core'
 
 describe('Analyzer', () => {
-  it('should return the number of characters', () => {
-    expect(Analyzer.getLength('123456')).toBe(6)
-    expect(Analyzer.getLength('123.456')).toBe(7)
-    expect(Analyzer.getLength('123 456')).toBe(7)
-    expect(Analyzer.getLength(' 123456 ')).toBe(8)
+  it('should be a palindrome', () => {
+    const examples = [
+      '123321',
+      'deified',
+      'civic',
+      'radar',
+      'level',
+      'rotor',
+      'kayak',
+      'reviver',
+      'madam',
+      'refer',
+    ]
+
+    examples.forEach((example) => {
+      expect(Analyzer.isPalindrome(example)).toBe(true)
+      expect(Analyzer.isPalindrome(` ${example} `)).toBe(true)
+      expect(Analyzer.isPalindrome(`${example}  `)).toBe(true)
+    })
+  })
+
+  it('should not be a palindrome', () => {
+    expect(Analyzer.isPalindrome('123')).toBe(false)
+    expect(Analyzer.isPalindrome('abc')).toBe(false)
+    expect(Analyzer.isPalindrome('teste')).toBe(false)
   })
 })

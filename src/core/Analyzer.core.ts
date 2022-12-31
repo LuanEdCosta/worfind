@@ -1,3 +1,4 @@
-export function getLength(text: string): number {
-  return text.length
+export function isPalindrome(text: string): boolean {
+  const trimmedText = text.trim()
+  return trimmedText === trimmedText.split('').reverse().join('')
 }
