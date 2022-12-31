@@ -1,0 +1,10 @@
+{
+  "empty": {
+    "message": "Digite algumas palavras acima"
+  },
+  "wordForm": {
+    "label": "Palavras Para Analisar",
+    "placeholder": "Digite algumas palavras...",
+    "button": "Analisar"
+  }
+}
