@@ -3,5 +3,5 @@ type TitleProps = {
 }
 
 export function Title({ title }: TitleProps) {
-  return <h1>{title}</h1>
+  return <h1 className="text-4xl font-bold text-center">{title}</h1>
 }

@@ -19,8 +19,12 @@ export function WordForm({ words, setWords, handleQuery }: WordFormProps) {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate>
-      <TextField label={t('wordForm.label')}>
+    <form
+      className="flex flex-col items-stretch space-y-4 sm:flex-row sm:items-end sm:space-x-4"
+      onSubmit={handleSubmit}
+      noValidate
+    >
+      <TextField className="sm:flex-1" label={t('wordForm.label')}>
         <Input
           value={words}
           placeholder={t('wordForm.placeholder').toString()}
@@ -28,7 +32,7 @@ export function WordForm({ words, setWords, handleQuery }: WordFormProps) {
         />
       </TextField>
 
-      <Button>
+      <Button className="w-full sm:max-w-[250px]">
         <div>{t('wordForm.button')}</div>
         <FaArrowRight />
       </Button>
