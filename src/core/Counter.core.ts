@@ -25,3 +25,9 @@ export function getNumberOfSpaces(text: string): number {
   const result = text.match(regex)
   return result ? result.length : 0
 }
+
+export function getNumberOfSpecialChars(text: string): number {
+  const regex = /[^\w\s]/gm
+  const result = text.match(regex)
+  return result ? result.length : 0
+}
