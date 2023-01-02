@@ -5,9 +5,9 @@ type MiniCardProps = {
 
 export function MiniCard({ label, icon }: MiniCardProps) {
   return (
-    <div>
-      {icon}
-      {label}
+    <div className="flex items-center bg-white border border-gray-200 rounded-lg p-4 space-x-2">
+      {icon && <div className="text-xl">{icon}</div>}
+      <div>{label}</div>
     </div>
   )
 }
