@@ -23,4 +23,4 @@ Perform analysis and manipulations on strings.
 
 ## :man: Author
 
-Luan Eduardo da Costa
+Luan Eduardo da Costa | [Follow me on Linkedin](https://www.linkedin.com/in/luaneducosta/)

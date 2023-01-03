@@ -1,13 +1,13 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { MemoryRouter, Route, Routes } from 'react-router-dom'
 
 import { HomePage } from 'src/pages'
 
 export function AppRoutes() {
   return (
-    <BrowserRouter>
+    <MemoryRouter>
       <Routes>
         <Route index element={<HomePage />} />
       </Routes>
-    </BrowserRouter>
+    </MemoryRouter>
   )
 }
