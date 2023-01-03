@@ -21,37 +21,37 @@ export default defineConfig({
         lang: 'pt-BR',
         icons: [
           {
-            src: '/favicons/favicon-16x16.png',
+            src: '/worfind/favicons/favicon-16x16.png',
             sizes: '16x16',
             type: 'image/png',
             purpose: 'any maskable',
           },
           {
-            src: '/favicons/favicon-32x32.png',
+            src: '/worfind/favicons/favicon-32x32.png',
             sizes: '32x32',
             type: 'image/png',
             purpose: 'any maskable',
           },
           {
-            src: '/favicons/favicon-96x96.png',
+            src: '/worfind/favicons/favicon-96x96.png',
             sizes: '96x96',
             type: 'image/png',
             purpose: 'any maskable',
           },
           {
-            src: '/favicons/favicon-144x144.png',
+            src: '/worfind/favicons/favicon-144x144.png',
             sizes: '144x144',
             type: 'image/png',
             purpose: 'any maskable',
           },
           {
-            src: '/favicons/favicon-192x192.png',
+            src: '/worfind/favicons/favicon-192x192.png',
             sizes: '192x192',
             type: 'image/png',
             purpose: 'any maskable',
           },
           {
-            src: '/favicons/favicon-512x512.png',
+            src: '/worfind/favicons/favicon-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable',
